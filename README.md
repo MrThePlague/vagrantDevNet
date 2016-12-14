@@ -21,3 +21,9 @@ _To do: Improve this rubbish documentation_
 * Vagrant up
 
         $ vagrant up
+
+* SSH to dev box
+
+        $ vagrant ssh
+
+That's it!
