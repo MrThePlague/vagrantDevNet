@@ -12,12 +12,12 @@ __To do: Improve this rubbish documentation__
 
 * Clone repository
 
-    $ git clone https://github.com/MrThePlague/vagrantDevNet.git
+        $ git clone https://github.com/MrThePlague/vagrantDevNet.git
 
 * Change directory
 
-    $ cd vagrantDevNet/
+        $ cd vagrantDevNet/
 
 * Vagrant up
 
-    $ vagrant up
+        $ vagrant up
