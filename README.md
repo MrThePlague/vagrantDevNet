@@ -1,7 +1,7 @@
 # vagrantDevNet
 Provision a development environment for working through Cisco's DevNet APIC-EM Python course
 
-__To do: Improve this rubbish documentation__
+_To do: Improve this rubbish documentation_
 
 ## Prerequisites
 
