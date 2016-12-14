@@ -1,5 +1,5 @@
 ---
-# Playbook to install the Jekyll gem, and clone the blog's repo
+# Playbook to install the required tools and libraries for the Cisco DevNet Python tutorials
 
 - hosts: all
   remote_user: ubuntu
