@@ -6,8 +6,16 @@
 
   tasks:
 
+    - name: Update apt cache if less than an hour old
+      apt:
+        update_cache: yes
+        cache_valid_time: 3600
+      become: true
+    
     - name: Install Python3 pip
-      apt: name=python3-pip state=latest
+      apt: 
+        name: python3-pip 
+        state: latest 
       become: true
 
     - name: Install requests python library
