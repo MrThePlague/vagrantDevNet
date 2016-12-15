@@ -19,17 +19,27 @@
       become: true
 
     - name: Install requests python library
-      pip: name=requests state=latest executable=pip3
+      pip: 
+        name: requests 
+        state: latest 
+        executable: pip3
       become: true
 
     - name: Install Flask python library
-      pip: name=flask state=latest executable=pip3
+      pip: 
+        name: flask 
+        state: latest 
+        executable: pip3
       become: true
     
     - name: Install Git
-      apt: name=git state=latest
+      apt: 
+        name: git 
+        state: latest
       become: true
     
     - name: Install Vim text editor
-      apt: name=vim state=latest
+      apt: 
+        name: vim 
+        state: latest
       become: true 
