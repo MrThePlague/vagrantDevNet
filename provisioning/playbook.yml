@@ -18,6 +18,30 @@
         state: latest 
       become: true
 
+    - name: Install Python3 libxml
+      apt:
+        name: python3-lxml
+        state: latest
+      become: true
+
+    - name: Install Python libxml2 development libraries
+      apt:
+        name: libxml2-dev
+        state: latest
+      become: true 
+
+    - name: Install Python libxslt1
+      apt:
+        name: python-libxslt1
+        state: latest
+      become: true
+
+    - name: Install libxslt1 development libraries
+      apt:
+        name: libxslt1-dev
+        state: latest
+      become: true
+
     - name: Install requests python library
       pip: 
         name: requests 
@@ -31,7 +55,28 @@
         state: latest 
         executable: pip3
       become: true
-    
+
+    - name: Install netaddr
+      pip:
+        name: netaddr
+        state: latest
+        executable: pip3
+      become: true
+
+    - name: Install argparse
+      pip:
+        name: argparse
+        state: latest
+        executable: pip3
+      become: true
+
+    - name: Install Python YANG libraries
+      pip:
+        name: pyang
+        state: latest
+        executable: pip3
+      become: true
+
     - name: Install Git
       apt: 
         name: git 
